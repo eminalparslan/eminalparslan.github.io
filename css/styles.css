@@ -6,6 +6,10 @@
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     overscroll-behavior-y: none;
     background: linear-gradient(135deg, #151a2a 0%, #1d2438 100%);
@@ -245,6 +249,7 @@ main {
 
 .bio-section {
     margin-bottom: 2rem;
+    scroll-margin-top: 2rem;
 }
 
 .highlight {
@@ -309,6 +314,7 @@ main {
 }
 
 .experience-description {
+    scroll-margin-top: 2rem;
     color: #b3b9cb;
     font-size: 0.95rem;
     line-height: 1.6;
