@@ -14,6 +14,10 @@ body {
     overflow-x: hidden;
 }
 
+p {
+    font-family: "Lexend", sans-serif;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -42,6 +46,14 @@ header h1 {
     }
     margin-bottom: 0.5rem;
 }
+
+header h2 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+
 header h1,
 header h2 {
     white-space: nowrap;
@@ -55,14 +67,8 @@ header h2 {
     justify-content: space-between;
 }
 
-header h2 {
-    font-size: 1.2rem;
-    color: #fff;
-    margin-bottom: 1.5rem;
-    font-weight: 400;
-}
-
 .profile-description {
+    font-family: "Lexend", sans-serif;
     color: #b3b9cb;
     font-size: 1rem;
     max-width: 400px;
@@ -278,6 +284,7 @@ main {
     overflow: hidden;
 }
 
+/* https://ibelick.com/blog/create-grainy-backgrounds-with-css */
 .experience-item::before {
     content: "";
     background-color: transparent;
